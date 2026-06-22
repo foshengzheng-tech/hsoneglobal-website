@@ -1,0 +1,1 @@
+document.querySelectorAll('.thumbs img').forEach(img=>img.addEventListener('click',()=>{let main=img.closest('.product-layout').querySelector('.main-product-img');if(main) main.src=img.src;}));
