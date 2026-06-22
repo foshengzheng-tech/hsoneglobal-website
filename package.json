@@ -1,0 +1,21 @@
+{
+  "name": "hsoneglobal-website",
+  "version": "1.0.0",
+  "description": "HSONE professional OEM and ODM screen protector manufacturer",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "screen-protector",
+    "manufacturer",
+    "oem",
+    "odm"
+  ],
+  "author": "HSONE",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
