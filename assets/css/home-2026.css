@@ -13,7 +13,8 @@
   --hs-shadow:0 18px 50px rgba(10,25,45,.10);
 }
 html{scroll-behavior:smooth}
-body.home-2026{background:#fff;color:var(--hs-ink);overflow-x:hidden}
+body.home-2026{background:#fff;color:var(--hs-ink);font-family:'Plus Jakarta Sans',Inter,Arial,Helvetica,sans-serif;overflow-x:hidden}
+.home-2026 h1, .home-2026 h2, .home-2026 h3, .home-2026 h4, .home-2026 .btn{font-family:'Plus Jakarta Sans',Inter,Arial,Helvetica,sans-serif}
 .home-2026 main{overflow:hidden}
 .home-2026 img{max-width:100%;display:block}
 .home-2026 .site-header{height:78px;padding:0 clamp(18px,4.5vw,72px);gap:26px;border-bottom:1px solid rgba(9,20,35,.08);box-shadow:0 3px 20px rgba(9,20,35,.04);background:rgba(255,255,255,.96);backdrop-filter:blur(14px)}
