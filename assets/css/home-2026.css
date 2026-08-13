@@ -242,7 +242,7 @@ body.home-2026{font-family:'Plus Jakarta Sans',Inter,Arial,Helvetica,sans-serif;
 .home-2026 .footer .footer-brand img{height:36px;width:auto;margin-bottom:16px;filter:none}
 .home-2026 .footer .foot-seo{font-size:11px;line-height:1.65;color:#8e9bab;margin-top:18px}
 .home-2026 .footer .foot-cta{color:var(--hs-orange);font-weight:900}
-.home-2026 .whatsapp{position:fixed;left:24px;bottom:24px;background:#16c45b;color:#fff;padding:14px 20px;border-radius:999px;font-weight:800;z-index:100;box-shadow:0 10px 30px rgba(15,140,70,.25);font-size:14px;text-decoration:none;display:block}.home-2026 .floating-quote{position:fixed;right:24px;bottom:24px;background:var(--hs-orange);color:#fff;padding:14px 22px;border-radius:999px;font-weight:800;z-index:100;box-shadow:0 10px 30px rgba(255,90,0,.25);font-size:14px;text-decoration:none}.home-2026 .btn-quote{display:inline-block;background:var(--hs-orange);color:#fff;padding:10px 16px;border-radius:6px;font-size:12px;font-weight:800;text-decoration:none;transition:.2s;margin-top:10px}.home-2026 .btn-quote:hover{background:var(--hs-navy);transform:translateY(-1px)}
+/* Floating buttons handled in style.css */
 
 @media(max-width:1100px){
   .home-2026 .hero-grid{grid-template-columns:1fr 420px;gap:25px}.home-2026 .hero-stage{height:490px}.home-2026 .hero-stage-polish{height:500px}.home-2026 .hero-visual-frame{inset:10px 0 58px 0}.home-2026 .hero-spec-rail{grid-template-columns:repeat(2,1fr)}
