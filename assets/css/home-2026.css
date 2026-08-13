@@ -13,8 +13,7 @@
   --hs-shadow:0 18px 50px rgba(10,25,45,.10);
 }
 html{scroll-behavior:smooth}
-body.home-2026{background:#fff;color:var(--hs-ink);font-family:'Plus Jakarta Sans',Inter,Arial,Helvetica,sans-serif;overflow-x:hidden}
-.home-2026 h1, .home-2026 h2, .home-2026 h3, .home-2026 h4, .home-2026 .btn{font-family:'Plus Jakarta Sans',Inter,Arial,Helvetica,sans-serif}
+body.home-2026{font-family:'Plus Jakarta Sans',Inter,Arial,Helvetica,sans-serif;background:#fff;color:var(--hs-ink);overflow-x:hidden}
 .home-2026 main{overflow:hidden}
 .home-2026 img{max-width:100%;display:block}
 .home-2026 .site-header{height:78px;padding:0 clamp(18px,4.5vw,72px);gap:26px;border-bottom:1px solid rgba(9,20,35,.08);box-shadow:0 3px 20px rgba(9,20,35,.04);background:rgba(255,255,255,.96);backdrop-filter:blur(14px)}
@@ -57,13 +56,20 @@ body.home-2026{background:#fff;color:var(--hs-ink);font-family:'Plus Jakarta San
 .home-2026 .proof-chip{background:rgba(255,255,255,.78);border:1px solid rgba(7,17,31,.08);padding:10px 13px;border-radius:999px;font-size:12px;color:#354154;font-weight:800;box-shadow:0 8px 24px rgba(20,33,48,.04)}
 .home-2026 .hero-stage{position:relative;height:540px}
 .home-2026 .hero-card{position:absolute;background:rgba(255,255,255,.94);border:1px solid rgba(255,255,255,.9);border-radius:22px;box-shadow:0 24px 60px rgba(9,26,45,.18);overflow:hidden}
-.home-2026 .hero-card img{width:100%;height:100%;object-fit:cover;background:#fff}
+.home-2026 .hero-card img{width:100%;height:100%;object-fit:contain;background:#f4f5f7}
 .home-2026 .hero-card.primary{width:310px;height:380px;right:88px;top:55px;z-index:4;transform:rotate(1deg)}
 .home-2026 .hero-card.secondary{width:235px;height:292px;left:6px;top:153px;z-index:3;transform:rotate(-5deg)}
 .home-2026 .hero-card.tertiary{width:210px;height:258px;right:-10px;bottom:8px;z-index:5;transform:rotate(5deg)}
 .home-2026 .hero-tech-badge{position:absolute;right:0;top:0;z-index:7;background:var(--hs-navy);color:#fff;border-radius:15px;padding:17px 20px;box-shadow:0 16px 40px rgba(7,17,31,.2);max-width:235px}
 .home-2026 .hero-tech-badge b{display:block;font-size:15px;margin-bottom:4px;color:#fff}
 .home-2026 .hero-tech-badge span{font-size:11px;color:#bfc9d6;line-height:1.45}
+.home-2026 .hero-stage-polish{height:560px}
+.home-2026 .hero-visual-frame{position:absolute;inset:18px 0 60px 0;border-radius:28px;overflow:hidden;box-shadow:0 28px 70px rgba(9,26,45,.18);background:#0b1422;border:1px solid rgba(255,255,255,.65)}
+.home-2026 .hero-visual-frame img{width:100%;height:100%;object-fit:cover}
+.home-2026 .hero-stage-polish .hero-tech-badge{top:18px;right:18px;max-width:260px;background:rgba(7,17,31,.88);backdrop-filter:blur(8px)}
+.home-2026 .hero-spec-rail{position:absolute;left:18px;right:18px;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;z-index:7}
+.home-2026 .hero-spec-rail span{display:flex;flex-direction:column;justify-content:center;min-height:72px;padding:14px 16px;border-radius:16px;background:rgba(255,255,255,.86);border:1px solid rgba(7,17,31,.08);box-shadow:0 12px 35px rgba(9,26,45,.10);font-size:12px;font-weight:800;color:#506072}
+.home-2026 .hero-spec-rail span b{display:block;color:var(--hs-navy);font-size:18px;line-height:1.1;margin-bottom:4px;letter-spacing:-.5px}
 .home-2026 .hero-orbit{position:absolute;inset:30px 42px 28px 30px;border:1px solid rgba(7,17,31,.10);border-radius:50%;transform:rotate(-13deg)}
 
 /* iPhone launch strip */
@@ -239,7 +245,7 @@ body.home-2026{background:#fff;color:var(--hs-ink);font-family:'Plus Jakarta San
 .home-2026 .whatsapp{box-shadow:0 10px 30px rgba(15,140,70,.25)}
 
 @media(max-width:1100px){
-  .home-2026 .hero-grid{grid-template-columns:1fr 420px;gap:25px}.home-2026 .hero-stage{height:490px}.home-2026 .hero-card.primary{width:265px;height:335px;right:60px}.home-2026 .hero-card.secondary{width:200px;height:250px}.home-2026 .hero-card.tertiary{width:180px;height:225px}
+  .home-2026 .hero-grid{grid-template-columns:1fr 420px;gap:25px}.home-2026 .hero-stage{height:490px}.home-2026 .hero-stage-polish{height:500px}.home-2026 .hero-visual-frame{inset:10px 0 58px 0}.home-2026 .hero-spec-rail{grid-template-columns:repeat(2,1fr)}
   .home-2026 .category-grid{grid-template-columns:repeat(3,1fr)}
   .home-2026 .tech-grid{grid-template-columns:repeat(2,1fr)}
   .home-2026 .process-grid{grid-template-columns:repeat(3,1fr)}
@@ -251,7 +257,7 @@ body.home-2026{background:#fff;color:var(--hs-ink);font-family:'Plus Jakarta San
   .home-2026 .home-wrap{width:min(100% - 32px,1180px)}
   .home-2026 .home-section{padding:74px 0}
   .home-2026 .hero-grid,.home-2026 .launch-grid,.home-2026 .tech-feature,.home-2026 .factory-grid,.home-2026 .pack-grid,.home-2026 .quality-layout,.home-2026 .final-grid{grid-template-columns:1fr}
-  .home-2026 .home-hero{padding-top:48px;min-height:auto}.home-2026 .hero-copy h1{font-size:50px}.home-2026 .hero-stage{height:420px;max-width:560px;width:100%;margin:0 auto}.home-2026 .hero-card.primary{right:80px;top:30px}.home-2026 .hero-card.secondary{left:30px;top:135px}.home-2026 .hero-card.tertiary{right:10px}
+  .home-2026 .home-hero{padding-top:48px;min-height:auto}.home-2026 .hero-copy h1{font-size:50px}.home-2026 .hero-stage{height:420px;max-width:560px;width:100%;margin:0 auto}.home-2026 .hero-stage-polish{height:440px}.home-2026 .hero-visual-frame{inset:0 0 76px 0}.home-2026 .hero-stage-polish .hero-tech-badge{top:12px;right:12px}.home-2026 .hero-spec-rail{grid-template-columns:repeat(2,1fr);left:0;right:0;gap:8px}
   .home-2026 .launch-visuals{max-width:700px}
   .home-2026 .trust-row{grid-template-columns:repeat(3,1fr)}.home-2026 .trust-item:nth-child(3){border-right:0}.home-2026 .trust-item:nth-child(-n+3){border-bottom:1px solid var(--hs-line)}
   .home-2026 .product-grid{grid-template-columns:repeat(2,1fr)}
@@ -260,7 +266,7 @@ body.home-2026{background:#fff;color:var(--hs-ink);font-family:'Plus Jakarta San
   .home-2026 .footer{grid-template-columns:1fr 1fr}
 }
 @media(max-width:620px){
-  .home-2026 .hero-copy h1{font-size:40px;letter-spacing:-1.8px}.home-2026 .hero-copy .lead{font-size:16px}.home-2026 .hero-stage{height:340px}.home-2026 .hero-card.primary{width:210px;height:270px;right:44px;top:22px}.home-2026 .hero-card.secondary{width:150px;height:190px;left:0;top:116px}.home-2026 .hero-card.tertiary{width:140px;height:174px;right:0}.home-2026 .hero-tech-badge{max-width:185px;padding:12px 14px}.home-2026 .hero-tech-badge b{font-size:12px}.home-2026 .hero-tech-badge span{font-size:9px}
+  .home-2026 .hero-copy h1{font-size:40px;letter-spacing:-1.8px}.home-2026 .hero-copy .lead{font-size:16px}.home-2026 .hero-stage{height:340px}.home-2026 .hero-stage-polish{height:360px}.home-2026 .hero-visual-frame{inset:0 0 88px 0;border-radius:18px}.home-2026 .hero-tech-badge{max-width:185px;padding:12px 14px}.home-2026 .hero-tech-badge b{font-size:12px}.home-2026 .hero-tech-badge span{font-size:9px}.home-2026 .hero-spec-rail{grid-template-columns:1fr 1fr}.home-2026 .hero-spec-rail span{min-height:62px;padding:10px 12px;font-size:10px}.home-2026 .hero-spec-rail span b{font-size:15px}
   .home-2026 .launch-visuals{grid-template-columns:1fr}.home-2026 .launch-visuals .launch-img{height:180px}.home-2026 .launch-visuals .launch-img:last-child{display:none}
   .home-2026 .trust-row{grid-template-columns:repeat(2,1fr)}.home-2026 .trust-item{border-right:1px solid var(--hs-line);border-bottom:1px solid var(--hs-line)}.home-2026 .trust-item:nth-child(even){border-right:0}.home-2026 .trust-item:last-child{grid-column:1/-1;border-bottom:0;border-right:0}
   .home-2026 .category-grid,.home-2026 .product-grid,.home-2026 .why-grid,.home-2026 .tech-grid,.home-2026 .process-grid,.home-2026 .audience-grid,.home-2026 .knowledge-grid,.home-2026 .compare-grid{grid-template-columns:1fr}
