@@ -198,7 +198,27 @@
     </div>
   </section>
 
-  <!-- SCREEN 08 -->
+  <!-- SCREEN 08: VIDEO -->
+  <section class="factory-video-section" aria-labelledby="video-title">
+    <div class="home-wrap">
+      <div class="section-head center">
+        <p class="eyebrow">Factory in Action</p>
+        <h2 id="video-title" style="color:#fff">HSONE Advanced Production Line</h2>
+        <p style="color:#b9c3d0">Witness the precision behind every screen protector. Our 10,000㎡ facility combines automated precision with rigorous quality controls.</p>
+      </div>
+      <div class="video-container" id="factory-video-box">
+        <video id="factory-video" poster="/assets/images/home-2026/factory-capability-visual-v3.webp" preload="metadata" loop playsinline>
+          <source src="/assets/videos/factory-production.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay" onclick="const v=document.getElementById('factory-video'); const b=document.getElementById('factory-video-box'); if(v.paused){v.play(); b.classList.add('playing');}else{v.pause(); b.classList.remove('playing');}">
+          <div class="play-btn"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREEN 09 -->
   <section class="home-section dark" aria-labelledby="factory-title">
     <div class="home-wrap">
       <div class="factory-grid">
@@ -207,7 +227,7 @@
           <p class="eyebrow">Inside HSONE</p><h2 id="factory-title">From Raw Glass to Retail-Ready Product</h2>
           <p>Our manufacturing system integrates core screen protection processes including glass preparation, optical coating, precision processing, quality inspection, assembly and final packaging. Direct process control supports customization, consistent quality and scalable OEM production.</p>
           <div class="factory-metrics"><div class="factory-metric"><b>12,000㎡</b><span>Production Base</span></div><div class="factory-metric"><b>28</b><span>QC Processes</span></div><div class="factory-metric"><b>98%+</b><span>Yield Rate</span></div><div class="factory-metric"><b>OEM/ODM</b><span>Manufacturing Support</span></div></div>
-          <p><a class="btn" href="/factory-tour/">Take a Factory Tour</a> <a class="btn white" href="/support/">Request Factory Video</a></p>
+          <p><a class="btn" href="/factory-tour/">Take a Factory Tour</a> <a class="btn white" href="#video-title">Watch Factory Video</a></p>
         </div>
       </div>
       <div class="factory-tiles">
